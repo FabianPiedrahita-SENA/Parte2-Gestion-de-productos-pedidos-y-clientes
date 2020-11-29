@@ -7,12 +7,6 @@
 
  
 
- .color{
-
-  color: black;
-
-
- }
  body
  {
    margin:0;
@@ -29,12 +23,10 @@
  :-moz-placeholder { /* Firefox 18- */
    color: white;
  }
-
-
  .main
  {
    height:100vh;
-   background:url('https://miro.medium.com/max/1200/1*csbA9duYEhC_Y6dwD0nhKg.jpeg') no-repeat center center;
+   background:url('https://get.pxhere.com/photo/restaurant-dish-meal-food-plate-breakfast-lunch-cuisine-buffet-restaraunt-dining-dinner-supper-brunch-sense-99896.jpg') no-repeat center center;
    background-size:cover;
    background-repeat:no-repeat;
    display:flex;
@@ -74,29 +66,9 @@
    text-align: center;
  }
 
-.salir{
 
-  text-align: right;
-
-}
 
  input
- {
-   box-shadow:0;
-   border:none;
-   border-radius:0;
-   background-color:transparent;
-   border-bottom:2px solid white;
-   font-family: 'Open Sans', sans-serif;
-   width:270px;
-   height:40px;
-   margin-top:20px;
-   color:white;
-   font-size:16px;
-   padding-left:5px;
- }
-
- select
  {
    box-shadow:0;
    border:none;
@@ -112,21 +84,12 @@
    padding-left:5px;
  }
  
- input
+ input:focus
  {
    outline: none;
    border-bottom:2px solid #ef5350;
    transition: border-color 0.5s cubic-bezier(0,.92,.57,1.07);
  }
-
-
- select
- {
-   outline: none;
-   border-bottom:2px solid #ef5350;
-   transition: border-color 0.5s cubic-bezier(0,.92,.57,1.07);
- }
-
  .butt
  {
    height:35px;
@@ -156,26 +119,19 @@
    text-decoration:none;
    color:#ff8a80;
  }
- @media only screen and (max-width:400000000px)
+ @media only screen and (max-width:433px)
  {
    .box
    {
-     height:600px;
-     width:400px;
+     height:420px;
+     width:300px;
      margin-top:20px;
    }
-
    input
    {
      width:240px;
    }
  }
-
- select
-   {
-     width:240px;
-   }
- 
 
 
 

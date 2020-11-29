@@ -5,6 +5,7 @@ require_once "config/config.php";
 require_once "core/routes.php";
 require_once "controllers/ProductoController.php";
 require_once "controllers/HomeController.php";
+require_once "controllers/UsuarioController.php";
 // $controlador = new ProductoController();
 // $controlador->index();
 
@@ -24,6 +25,7 @@ if(isset($_GET['control']))
         {
             cargarAccion($controlador, $_GET['action']);   
         }
+
 
      
     }
