@@ -67,7 +67,7 @@ if($_SESSION['rol'] == 'Administrador'){ ?>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="index.php?control=pedido&action=index">Listar</a>
-          <a class="dropdown-item" href="index.php?control=pedido&action=insert">Crear</a>
+
         </div>
       </li>
 
