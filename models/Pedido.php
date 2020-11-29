@@ -41,7 +41,7 @@ class Pedido
 
     public function update($identificador, $fecha, $valor, $estado, $numeroDocumentoCliente, $numeroDocumentoDomiciliario, $idCarroCompras)
     {
-        $sql ="UPDATE pedido SET fecha = $fecha, valor = $valor , estado = '$estado', numeroDocumentoCliente = '$numeroDocumentoliente', numeroDocumentoDomiciliario =' $numeroDocumentoDomiciliario', idCarroCompras = '$idCarroCompras' WHERE identificador = $identificador";
+        $sql ="UPDATE pedido SET fecha = $fecha, valor = $valor , estado = '$estado', numeroDocumentoCliente = '$numeroDocumentoCliente', numeroDocumentoDomiciliario =' $numeroDocumentoDomiciliario', idCarroCompras = '$idCarroCompras' WHERE identificador = $identificador";
         $resultado = $this->db->query($sql);
     }
 
