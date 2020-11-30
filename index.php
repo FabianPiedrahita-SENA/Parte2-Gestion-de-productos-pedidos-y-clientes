@@ -6,6 +6,9 @@ require_once "core/routes.php";
 require_once "controllers/ProductoController.php";
 require_once "controllers/HomeController.php";
 require_once "controllers/UsuarioController.php";
+require_once "controllers/ClienteController.php";
+require_once "controllers/PedidoController.php";
+
 // $controlador = new ProductoController();
 // $controlador->index();
 
@@ -21,11 +24,16 @@ if(isset($_GET['control']))
         {
             cargarAccion($controlador, $_GET['action'], $_GET['id']);   
         }
+        else if(isset($_GET['numeroDocumento']))
+        {
+            cargarAccion($controlador, $_GET['action'], $_GET['numeroDocumento']);   
+        }
         else
         {
             cargarAccion($controlador, $_GET['action']);   
         }
 
+        
 
      
     }
@@ -47,10 +55,3 @@ else
 
 
 ?>
-
-
-
-
-
-
-
